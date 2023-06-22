@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#93a47c;
+    color: #ffffff;
+    font-family: 'Lora', serif;
+}
+
+header h1,
+section h2,
+.forms h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+body>header {
+    background-color:#93a47c ;
+    padding: 16px 0;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+body>header img {
+    height: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header li {
+    display: inline;
+    font-size: 25px;
+}
+
+header li a { 
+    background-color:#93a47c;
+    color:#ffffff;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+
+.container h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container, .forms {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.artigos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artigos article img {
+    height: 300px;
+    width: 100%;
+}
+
+.artigos article {
+    width: 32%;
+}
+
+section {
+    padding: 16px;
+}
+
+section h2, .artigos article {
+    margin-bottom: 16px;
+}
+
+.artigos article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.artigos article a  {
+    background-color:#9c8bb3;
+    ;
+    color:#ffffff;
+    ;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.artigos article a:hover {
+    text-decoration: underline;
+}
+
+.forms form  {
+    display:table-caption;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+form input,
+textarea {
+    height: 40px;
+    width: 330px;
+}
+
+
+#submit {
+    background-color:#9c8bb3;
+    font-size: 20px;
+    color: #ffffff;
+    height: 50px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color:#bb29be ;
+    text-decoration: underline;
+}
+
+label,
+textarea {
+    letter-spacing: 1px;
+}
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    border: 2px solid black;
+    resize: none;
+    height: 120px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.artigos article, .forms form {
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 500px;
+    background-color:#9c8bb3;
+}
+
+footer p {
+    background-color:#9c8bb3;
+    color: #ffffff;
+    font-size: 20px;
+}
